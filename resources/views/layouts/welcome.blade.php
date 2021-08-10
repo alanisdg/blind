@@ -18,6 +18,12 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="antialiased">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4 text-white">logo</div>
+              <div class="col-md-4 offset-md-4 text-white">Inicia sesion</div>
+            </div>
+        </div>
         <div id="app" class=" container">
             @yield('content')
         </div>
